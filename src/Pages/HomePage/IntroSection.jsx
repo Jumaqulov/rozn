@@ -5,14 +5,14 @@ export default function IntroSection() {
     return (
         <section className="container py-5">
             <div className="row align-items-center">
-                <div className="col-lg-6 mb-4 mb-lg-0">
+                <div className="col-lg-6 mb-4 mb-lg-0 text-center text-lg-start">
                     <h1 className="fw-bold mb-3" style={{ fontSize: '3.5rem', lineHeight: 1.2 }}>
                         Управление запасами розничного магазина
                     </h1>
                     <p className="text-muted mb-4" style={{ fontSize: '1.2rem' }}>
                         Использование сервиса 1С-Товары позволяет значительно упростить работу по формированию заявок поставщику.
                     </p>
-                    <button type="button" className="order_button">
+                    <button type="button" className="order_button d-block mx-auto mx-lg-0">
                         Заказать демонстрацию
                     </button>
                 </div>

@@ -32,7 +32,7 @@ Sayt orqali foydalanuvchilar:
 
 ### Talablar
 
-- Node.js (versiyasi XX va yuqoriroq)
+- Node.js (versiyasi 22 va yuqoriroq)
 - npm yoki yarn
 - Backend server (agar mavjud bo‘lsa)
 - Ma'lumotlar bazasi (agar kerak bo‘lsa)

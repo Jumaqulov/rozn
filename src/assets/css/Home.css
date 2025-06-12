@@ -13,3 +13,105 @@
     background: white;
     color: #43A548;
 }
+
+.intro_card_section {
+    background: #f7f9f8;
+}
+
+.intro_card {
+    background: #ffffff;
+    border-radius: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.intro_card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-6px);
+}
+
+.intro-icons {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.intro_card_last_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #ebf7ed;
+    margin-top: 40px;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.intro_card_last_box svg {
+    font-size: 40px;
+}
+
+.advantage_card {
+    border-radius: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.advantage_card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-6px);
+}
+
+.advantage_card_2 {
+    background: #e5f6e6;
+}
+
+.swiperSlide_card {
+    border-radius: 40px;
+    background: white;
+}
+
+.swiperSlide_card a {
+    display: inline-block;
+    color: #43A548;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.swiperSlide_card a:hover {
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+.support_card {
+    border-radius: 40px;
+    background: white;
+}
+
+.email-wrap {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.product_info_link {
+    display: inline-block;
+    color: #43A548;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.product_info_link:hover {
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .w-md-auto {
+        width: auto !important;
+    }
+}
