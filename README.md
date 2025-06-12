@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# 1C-Rozn (1С-Товары)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Umumiy ma'lumot
 
-## Available Scripts
+**1C-Rozn** — bu bug‘alterlar, chakana savdo va kichik biznes uchun mo‘ljallangan zamonaviy veb-platforma. U orqali siz chakana do‘konlarning zahiralarini boshqarishingiz, buyurtmalarni avtomatlashtirishingiz va sotuvlarni nazorat qilishingiz mumkin.
 
-In the project directory, you can run:
+Sayt orqali foydalanuvchilar:
 
-### `npm start`
+- Do‘kon zahiralarini real vaqt rejimida kuzatish
+- Buyurtma va tovarlarni avtomatik tarzda boshqarish
+- Sotuvlar va talablarni prognozlash
+- Ta’minotchilar bilan samarali aloqada bo‘lish imkoniyatiga ega bo‘ladilar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Asosiy funksiyalar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Zahiralarni boshqarish:** Mahsulotlarni hisobga olish, tovar zaxiralarining holatini monitoring qilish.
+- **Avtomatik buyurtma:** Tovarlarni buyurtma qilish jarayonini soddalashtirish va optimallashtirish.
+- **Do‘kon tahlili:** Sotuvlar, talab va assortiment bo‘yicha batafsil tahlillar.
+- **Prognozlash:** Sotuvlar va talablar bo‘yicha kelajakdagi o‘zgarishlarni oldindan bashorat qilish.
+- **Ta’minotchi boshqaruvi:** Buyurtmalar va yetkazib beruvchilarni samarali boshqarish.
+- **Assortimentni boshqarish:** Mahsulot assortimenti va uning yangilanishini nazorat qilish.
+- **Sotuvlarni boshqarish:** Sotuvlar jarayonini nazorat qilish va optimallashtirish.
 
-### `npm test`
+## Texnologiyalar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Frontend: React.js, Bootstrap 5, Tailwind CSS (agar ishlatilgan bo‘lsa)
+- Backend: (bu yerga backend texnologiyangizni kiriting, masalan Node.js, Django, Go va boshqalar)
+- Rasm va ikonalar: SVG va tayyor grafik resurslar
+- Responsive dizayn: Sayt barcha qurilmalarda qulay ko‘rinish uchun moslashtirilgan
 
-### `npm run build`
+## Loyihani ishga tushirish
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Talablar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (versiyasi XX va yuqoriroq)
+- npm yoki yarn
+- Backend server (agar mavjud bo‘lsa)
+- Ma'lumotlar bazasi (agar kerak bo‘lsa)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### O‘rnatish va ishga tushirish
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Loyihani klonlash:
+   ```bash
+   git clone https://github.com/username/1c-rozn.git
+   cd 1c-rozn
