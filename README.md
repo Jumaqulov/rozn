@@ -41,5 +41,6 @@ Sayt orqali foydalanuvchilar:
 
 1. Loyihani klonlash:
    ```bash
-   git clone https://github.com/username/1c-rozn.git
+   git clone https://github.com/Jumaqulov/1c-rozn.git
    cd 1c-rozn
+   npm start
