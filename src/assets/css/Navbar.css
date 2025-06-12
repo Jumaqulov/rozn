@@ -1,0 +1,19 @@
+.nav_login {
+    display: inline-block;
+    font-weight: 500;
+    color: 'white';
+    white-space: 'nowrap';
+    padding: 10px 20px;
+    background: linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);
+    border-radius: 1000px;
+    color: white;
+}
+.nav-item .nav-link {
+    transition: 0.3s;
+}
+
+.nav-item .nav-link:hover {
+    transition: 0.3s;
+    color: #43A548 !important;
+    text-decoration: underline;
+}
