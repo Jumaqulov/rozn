@@ -5,6 +5,10 @@ import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { FaTruckMoving } from "react-icons/fa";
 import { CiBoxes } from "react-icons/ci";
 
+import img1 from '../assets/imgs/Rectangle 5 (1).png';
+import img2 from '../assets/imgs/Rectangle 5 (2).png';
+import img3 from '../assets/imgs/Rectangle 5.png';
+
 
 export const cardsData = [
     {
@@ -167,5 +171,47 @@ export const wholesaleBlocks = [
         text: `1С-Товары позволяют синхронизировать наименования товаров у поставщика и магазина, что дает возможность автоматически загрузить заявки от розничных магазинов в учетную систему и не тратить много времени на сопоставление номенклатуры.`,
         linkText: 'Подробнее о 1С-Товары',
         linkHref: '#',
+    },
+]
+
+export const faqItems = [
+    'С чего начать работу с 1С-Товары?',
+    'Как подключить 1С-Ритейл Чекер* и 1С-Товары?',
+    'Средний чек, о чем нам может рассказать?',
+    'Сценарии автозаказа сервиса 1С-Товары',
+    'Как подключить 1С-Ритейл Чекер* и 1С-Товары?',
+    'Методы и формулы расчета торговой наценки',
+]
+
+export const articles = [
+    {
+        id: 1,
+        title: 'Методы и формулы расчета торговой наценки',
+        img: img1,
+        link: '#',
+    },
+    {
+        id: 2,
+        title: 'Ассортимент продуктового ассортимента',
+        img: img2,
+        link: '#',
+    },
+    {
+        id: 3,
+        title: 'Что такое сезонность продаж',
+        img: img3,
+        link: '#',
+    },
+    {
+        id: 4,
+        title: 'Что такое сезонность продаж',
+        img: img1,
+        link: '#',
+    },
+    {
+        id: 5,
+        title: 'Что такое сезонность продаж',
+        img: img2,
+        link: '#',
     },
 ]

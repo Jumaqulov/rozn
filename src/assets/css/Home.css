@@ -110,6 +110,22 @@
     text-decoration: underline;
 }
 
+.accordion-item {
+    border-radius: 40px;
+    overflow: hidden;
+    background: white;
+}
+
+.accordion-button {
+    border-radius: 40px;
+    margin-bottom: 0;
+}
+
+.accordion-collapse {
+    border-radius: 0 0 40px 40px;
+    margin-top: -1px;
+}
+
 @media (max-width: 768px) {
     .w-md-auto {
         width: auto !important;

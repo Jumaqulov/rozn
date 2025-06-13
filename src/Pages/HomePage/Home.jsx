@@ -7,6 +7,9 @@ import ProductsCarousel from './ProductCaorusel'
 import SupportSection from './SupportSection'
 import ProductsInfoSection from './ProductInfo'
 import ConsultationSection from './ConsultationSection'
+import FAQSection from './FAQSection'
+import KnowledgeBase from './KnowledgeBase'
+import CompaniesSection from './CompaniesSection'
 
 export default function Home() {
     return (
@@ -18,6 +21,9 @@ export default function Home() {
             <SupportSection />
             <ProductsInfoSection />
             <ConsultationSection />
+            <FAQSection />
+            <KnowledgeBase />
+            <CompaniesSection />
         </div>
     )
 }

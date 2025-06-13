@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ConsultationSection() {
     return (
-        <section className="py-5 px-4">
+        <section className="py-5 px-4" style={{ background: '#f7f9f8' }}>
             <div className="container">
                 <div className="row align-items-center p-5" style={{
                     background: 'linear-gradient(90deg, #22c55e 0%, #16a34a 100%)',
