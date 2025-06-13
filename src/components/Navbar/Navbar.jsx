@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
             <div className="container">
-                <a className="navbar-brand d-flex align-items-center" href="#">
+                <a className="navbar-brand d-flex align-items-center" href="/">
                     <img src={logo} alt="logo" width="40" height="40" className="me-2" />
                     <span className="fw-semibold" style={{ fontSize: '1.1rem' }}>1С-Товары</span>
                 </a>
