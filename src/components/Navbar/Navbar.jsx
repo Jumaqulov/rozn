@@ -26,16 +26,16 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
                     <ul className="navbar-nav d-flex flex-column flex-md-row gap-3 mb-0 text-center text-md-center">
                         <li className="nav-item">
-                            <a className="nav-link text-dark" href="#">Как это работает</a>
+                            <a className="nav-link text-dark" href="/how-works">Как это работает</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-dark" href="#">Инструкции</a>
+                            <a className="nav-link text-dark" href="/instruction">Инструкции</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-dark" href="#">Продукты</a>
+                            <a className="nav-link text-dark" href="/assortiment-info">Aссортимента</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-dark" href="#">База знаний</a>
+                            <a className="nav-link text-dark" href="/base-knowladge">База знаний</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-dark" href="#">О нас</a>

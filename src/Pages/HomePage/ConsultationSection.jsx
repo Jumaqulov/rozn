@@ -9,7 +9,6 @@ export default function ConsultationSection() {
                     borderRadius: '30px',
                     color: 'white',
                 }}>
-                    {/* Matn qismi */}
                     <div className="col-lg-5">
                         <h2 className="fw-bold mb-3" style={{ lineHeight: 1.2 }}>
                             Хотите бесплатную консультацию? <br />
@@ -20,7 +19,6 @@ export default function ConsultationSection() {
                         </p>
                     </div>
 
-                    {/* Forma qismi */}
                     <div className="col-lg-7">
                         <form className="row g-3">
                             <div className="col-12">
